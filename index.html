@@ -88,7 +88,7 @@
 <main>
 
   <h1>Gizlilik Politikası</h1>
-  <p class="updated">Invoice Storage · Son güncelleme: 1 Eylül 2026</p>
+  <p class="updated">Invoice Storage · Son güncelleme: 27 Eylül 2026</p>
 
   <div class="lead">
     <p>Bu uygulama hiçbir kişisel veri toplamaz, aktarmaz veya paylaşmaz. Girdiğiniz her şey yalnızca kendi cihazınızda kalır.</p>
@@ -103,7 +103,7 @@
     <li><strong>Ekli belgeler</strong> (fotoğraf ve PDF dosyaları) cihazınızın <code>Documents/Fatura Deposu</code> klasörüne kaydedilir. Bu dosyaları herhangi bir dosya yöneticisiyle görüntüleyebilir, taşıyabilir veya silebilirsiniz.</li>
     <li><strong>Uygulama tercihleri</strong> (tema, dil, form alanı seçimleri) cihazınızda saklanır.</li>
   </ul>
-  <p>Otomatik yedekleme kapalıdır; fatura verileriniz bulut yedeklemesine kopyalanmaz.</p>
+  <p>Otomatik bulut yedeklemesi kapalıdır; fatura verileriniz bulut yedeklemesine kopyalanmaz. Android 12 ve üzerinde, yeni bir telefona geçerken sizin başlattığınız cihazdan cihaza aktarımda fatura bilgileri ve tercihleriniz doğrudan yeni cihazınıza taşınabilir.</p>
 
   <h2>İzinler</h2>
   <p>Uygulama hiçbir Android çalışma zamanı izni istemez:</p>
@@ -114,13 +114,20 @@
   </ul>
 
   <h2>Verilerin paylaşımı</h2>
-  <p>Uygulama verilerinizi kendiliğinden hiçbir yere göndermez. Yalnızca siz "Paylaş" düğmesine bastığınızda, seçtiğiniz uygulamaya (e-posta, mesajlaşma vb.) ilgili faturanın belgesi ve özeti aktarılır. Bu aktarımı siz başlatırsınız ve hedefi siz seçersiniz.</p>
+  <p>Uygulama verilerinizi kendiliğinden hiçbir yere göndermez. Belgeleriniz yalnızca sizin başlattığınız şu işlemlerde cihazınızdaki başka bir uygulamaya verilir:</p>
+  <ul>
+    <li><strong>Paylaş:</strong> Faturanın belgesi ve özeti (fatura adı ve tutarı) seçtiğiniz uygulamaya (e-posta, mesajlaşma vb.) aktarılır. Hedefi siz seçersiniz.</li>
+    <li><strong>Yazdır:</strong> Fotoğraflar Android'in yazdırma hizmetine, PDF'ler ise açmak için seçtiğiniz PDF görüntüleyicisine aktarılır.</li>
+    <li><strong>Kırpma:</strong> Fotoğraf çektiğinizde veya seçtiğinizde, faturayı kırpabilmeniz için görsel cihazınızdaki kırpma uygulamasına (ör. Galeri) verilir.</li>
+  </ul>
+  <p>Belge bu uygulamalara verildikten sonra nasıl işlendiği, o uygulamanın veya hizmetin kendi gizlilik politikasına tabidir.</p>
 
   <h2>Verilerin silinmesi</h2>
   <ul>
     <li>Tek bir faturayı detay ekranından silebilirsiniz; ekli belgesi de birlikte silinir.</li>
-    <li>Ayarlar → Veri Yönetimi bölümünden belirli bir tarihten önceki faturaları toplu olarak silebilirsiniz.</li>
-    <li>Uygulamayı kaldırdığınızda veritabanı ve tercihleriniz silinir. <code>Documents/Fatura Deposu</code> klasöründeki belgeler cihazınızda kalır; dilerseniz bir dosya yöneticisiyle silebilirsiniz.</li>
+    <li>Bir faturayı düzenlerken ekini değiştirir veya kaldırırsanız, kaydettiğinizde eski belge cihazdan silinir.</li>
+    <li>Ayarlar → Veri Yönetimi bölümünden, seçtiğiniz tarihten önce uygulamaya eklenen faturaları ekli belgeleriyle birlikte toplu olarak silebilirsiniz.</li>
+    <li>Uygulamayı kaldırdığınızda veritabanı ve tercihleriniz silinir. <code>Documents/Fatura Deposu</code> klasöründeki belgeler cihazınızda kalır; dilerseniz bir dosya yöneticisiyle silebilirsiniz. Uygulamayı yeniden kursanız bile bu belgeler yeni kuruluma bağlanmaz.</li>
   </ul>
 
   <h2>Çocuklar</h2>
@@ -135,7 +142,7 @@
   <hr class="divider">
 
   <h1>Privacy Policy</h1>
-  <p class="updated">Invoice Storage · Last updated: 1 September 2026</p>
+  <p class="updated">Invoice Storage · Last updated: 27 September 2026</p>
 
   <div class="lead">
     <p>This app does not collect, transmit or share any personal data. Everything you enter stays on your own device.</p>
@@ -150,7 +157,7 @@
     <li><strong>Attached documents</strong> (photos and PDFs) are saved to the <code>Documents/Fatura Deposu</code> folder on your device. You can view, move or delete them with any file manager.</li>
     <li><strong>App preferences</strong> (theme, language, form field choices) are stored on your device.</li>
   </ul>
-  <p>Automatic backup is disabled, so your invoice data is not copied to cloud backup.</p>
+  <p>Automatic cloud backup is disabled, so your invoice data is not copied to cloud backup. On Android 12 and later, a device-to-device transfer that you start when moving to a new phone may carry your invoice details and preferences directly to the new device.</p>
 
   <h2>Permissions</h2>
   <p>The app requests no Android runtime permissions:</p>
@@ -161,13 +168,20 @@
   </ul>
 
   <h2>Data sharing</h2>
-  <p>The app never sends your data anywhere on its own. Only when you press "Share" is the selected invoice's document and summary handed to the app you choose. You start that transfer and you pick the destination.</p>
+  <p>The app never sends your data anywhere on its own. Your documents are handed to another app on your device only when you start one of these actions:</p>
+  <ul>
+    <li><strong>Share:</strong> the invoice's document and summary (invoice name and amount) are handed to the app you choose (email, messaging, etc.). You pick the destination.</li>
+    <li><strong>Print:</strong> photos are handed to Android's print service; PDFs are handed to the PDF viewer you choose to open them with.</li>
+    <li><strong>Crop:</strong> when you take or pick a photo, it is handed to your device's crop app (e.g. Gallery) so you can crop the invoice.</li>
+  </ul>
+  <p>Once a document is handed to one of these apps, how it is handled is governed by that app's or service's own privacy policy.</p>
 
   <h2>Deleting your data</h2>
   <ul>
     <li>Delete a single invoice from its detail screen; the attached document goes with it.</li>
-    <li>Bulk-delete invoices older than a chosen date from Settings → Data Management.</li>
-    <li>Uninstalling the app removes its database and preferences. Documents in <code>Documents/Fatura Deposu</code> remain on your device and can be deleted manually.</li>
+    <li>If you replace or remove an invoice's attachment while editing it, the old document is deleted from the device when you save.</li>
+    <li>Bulk-delete invoices added to the app before a chosen date, along with their documents, from Settings → Data Management.</li>
+    <li>Uninstalling the app removes its database and preferences. Documents in <code>Documents/Fatura Deposu</code> remain on your device and can be deleted manually. They are not linked to a fresh installation of the app.</li>
   </ul>
 
   <h2>Children</h2>
